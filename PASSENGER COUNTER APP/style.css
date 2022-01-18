@@ -1,0 +1,236 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: rgb(10, 0, 26);
+}
+
+
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    z-index: 1;
+    text-align: center;
+    top: 0;
+}
+
+main h1 {
+    margin-block-start: 0;
+    padding-block-start: 80px;
+    font-size: 40px;
+    margin-block-end: 7px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+
+}
+
+main h2 {
+    font-size: 52px;
+    color: rgb(0, 157, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-block-start: 0;
+    margin-block-end: 15px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+button {
+    padding: 10px 40px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 600;
+    margin: 5px 5px;
+}
+
+#increment-btn {
+    background-color: transparent;
+
+}
+
+#decrement-btn {
+    background-color: transparent;
+    
+
+}
+
+#increment-btn:hover, #decrement-btn:hover {
+    color: rgb(0, 157, 255);
+    border: 1px solid rgb(0, 157, 255);
+}
+
+button:hover {
+    cursor: pointer;
+    
+    
+}
+
+#save-btn {
+    background-color: rgb(0, 157, 255);
+    border: 1px solid transparent;
+    color: rgb(10, 0, 26);
+}
+
+#save-btn:hover {
+    background: linear-gradient( rgb(0, 157, 255), rgb(166, 219, 252));
+}
+
+h4 {
+    font-size: 30px;
+    margin-block-start: 10px;
+    margin-block-end: 5px;
+}
+
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    
+}
+
+main div {
+    border: 2px solid rgb(250, 250, 250);
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 5px 20px;
+    max-width: 350px;
+
+    
+}
+p {
+    font-size: 20px;
+}
+#total-cpt {
+    color: rgb(255, 255, 255);
+}
+
+#maximum-cpt {
+    color: red;
+    
+}
+
+#available-cpt {
+    color: rgb(0, 157, 255);
+}
+
+.maximum-cpt-popup {
+    background: rgba(10, 0, 26, 0.926);
+    margin: 0;
+    z-index: 2;
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: initial;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    border: none;
+    
+
+}
+
+.maximum-cpt-popup .maximum-cpt-popup-content {
+    width: fit-content;
+    height: fit-content;
+    padding:  20px;
+    margin: 130px auto;
+    background: rgba(255, 255, 255, 0.905);
+    border: none;
+    border-radius: 10px;
+}
+
+.maximum-cpt-popup .maximum-cpt-popup-content button {
+    outline: none;
+    border: none;
+    background-color: rgb(0, 157, 255);
+    color: rgb(255, 255, 255);
+    margin: 15px 100px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.maximum-cpt-popup .maximum-cpt-popup-content button:hover {
+    color: rgb(0, 0, 0);
+}
+.maximum-cpt-popup .maximum-cpt-popup-content h3 {
+    font-size: 30px;
+    color: rgb(10, 0, 26);
+    margin-block-start: 0;
+    text-align: center;
+}
+
+.maximum-cpt-popup .maximum-cpt-popup-content h3 i {
+    color: rgb(0, 157, 255);
+    font-size: 60px;
+
+    margin-inline-end: 0;
+}
+
+@media screen and (max-width:360px) {
+    button {
+        padding: 10px 70px;
+        margin: 5px 0;
+    }
+
+    div {
+        padding: 5px 5px;
+        max-width: 280px;
+        
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:394px) {
+    button {
+        padding: 10px 30px;
+    }
+}
+
+
+@media  screen and (max-width:524px) {
+    /*body {
+        
+        background: url(pexels-darcy-lawrey-946281.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }*/
+
+    main h1 {
+        padding-block-start: 15px;
+    }   
+
+    div {
+        padding: 5px 5px;
+        
+    }
+
+@media screen and (min-width:525px) and (max-width:700px) {
+    main h1 {
+        padding-block-start: 50px;
+    }
+
+    button {
+        padding: 10px 50px;
+        margin: 10px 10px;
+    }
+}
+/*
+@media  screen and (min-width:701px) {
+    body {
+        
+        background:  url(pexels-elena-saharova-5098043.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }*/
+    
+}
+
