@@ -1,6 +1,8 @@
 # Passenger-Counter-App
 Part of the Scrimba JavaScript course with my own additions
 
+[Website link](https://passengercounter-devlethiwe.netlify.app/)
+
 Scrimba course tasks:
   1. Track how many passengers get in
   2. Save the number of passengers
