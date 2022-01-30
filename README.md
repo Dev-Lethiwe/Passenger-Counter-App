@@ -28,3 +28,4 @@ Web app link: [Passenger Counter App](https://passengercounter-devlethiwe.netlif
 ---
 ## Screenshots
 
+![Desktop screen size](SCREENSHOTS/Screenshot 2022-01-30 at 05-57-34 Passenger Counter App.png)
