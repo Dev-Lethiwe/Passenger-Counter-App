@@ -28,4 +28,8 @@ Web app link: [Passenger Counter App](https://passengercounter-devlethiwe.netlif
 ---
 ## Screenshots
 
-![Desktop screen size]SCREENSHOTS/Screenshot 2022-01-30 at 05-57-34 Passenger Counter App.png
+
+![Screenshot 2022-01-30 at 05-57-34 Passenger Counter App](https://user-images.githubusercontent.com/81758814/151686363-45358163-038d-48e5-82cf-803113ca1f26.png)
+![Screenshot 2022-01-30 at 05-57-59 Passenger Counter App](https://user-images.githubusercontent.com/81758814/151686370-de5479ae-d3b1-4daa-b1f1-5e86a620f875.png)
+![Screenshot 2022-01-30 at 05-58-10 Passenger Counter App](https://user-images.githubusercontent.com/81758814/151686373-902bfdda-32c0-4064-b669-5150e5f3c600.png)
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/81758814/151686375-a6a60e5c-dd28-4eeb-b34d-e80a37f00ad2.gif)
